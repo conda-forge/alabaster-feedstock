@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Configurable, Python 2+3 compatible Sphinx theme
+Summary: Configurable, Python 2+3 compatible Sphinx theme.
 
 Alabaster is a visually clean, responsive, and configurable Sphinx
 theme. It is sidebar-enabled and easy to install/use as a Python
