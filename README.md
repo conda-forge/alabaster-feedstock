@@ -18,9 +18,8 @@ theme for Sphinx.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/alabaster-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/alabaster-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/alabaster-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/alabaster-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/alabaster-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/alabaster-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/alabaster-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/alabaster-feedstock)
 
 Current release info
 ====================
