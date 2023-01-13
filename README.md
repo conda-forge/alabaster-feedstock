@@ -3,7 +3,7 @@ About alabaster
 
 Home: http://www.sphinx-doc.org/en/stable/index.html
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alabaster-feedstock/blob/main/LICENSE.txt)
 
