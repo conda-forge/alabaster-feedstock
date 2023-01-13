@@ -1,34 +1,39 @@
+{% set name = "alabaster" %}
 {% set version = "0.7.13" %}
 
 package:
-  name: alabaster
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/a/alabaster/alabaster-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alabaster-{{ version }}.tar.gz
   sha256: a27a4a084d5e690e16e01e03ad2b2e552c61a65469419b907243193de1a84ae2
 
 build:
   noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
+
 
 test:
   imports:
     - alabaster
+  requires:
+    - pip
   commands:
+    - pip check
     - python -c "import alabaster; print(alabaster.get_path())"
 
 about:
   home: http://www.sphinx-doc.org/en/stable/index.html
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: Configurable, Python 2+3 compatible Sphinx theme.
   description: |
