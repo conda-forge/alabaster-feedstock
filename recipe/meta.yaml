@@ -35,7 +35,7 @@ test:
 about:
   home: http://www.sphinx-doc.org/en/stable/index.html
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: Configurable, Python 2+3 compatible Sphinx theme.
   description: |
     Alabaster is a visually clean, responsive, and configurable Sphinx
