@@ -1,22 +1,20 @@
-About alabaster
-===============
-
-Home: http://www.sphinx-doc.org/en/stable/index.html
-
-Package license: BSD-3-Clause
+About alabaster-feedstock
+=========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alabaster-feedstock/blob/main/LICENSE.txt)
 
-Summary: Configurable, Python 2+3 compatible Sphinx theme.
+Home: https://alabaster.readthedocs.io/en/latest/index.html
 
-Development: https://github.com/bitprophet/alabaster
+Package license: BSD-3-Clause
+
+Summary: A light, configurable Sphinx theme
+
+Development: https://github.com/sphinx-doc/alabaster
 
 Documentation: https://anaconda.org/anaconda/alabaster
 
 Alabaster is a visually clean, responsive, and configurable Sphinx
-theme. It is sidebar-enabled and easy to install/use as a Python
-package. As of Sphinx 1.3, Alabaster is selected as the default
-theme for Sphinx.
+theme, and the default theme for Sphinx.
 
 
 Current build status
@@ -105,7 +103,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -153,6 +151,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@AA-Turner](https://github.com/AA-Turner/)
+* [@conda-forge/sphinx](https://github.com/conda-forge/sphinx/)
 * [@msarahan](https://github.com/msarahan/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@r-jain1](https://github.com/r-jain1/)
