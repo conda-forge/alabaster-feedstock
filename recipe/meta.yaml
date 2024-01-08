@@ -1,5 +1,5 @@
 {% set name = "alabaster" %}
-{% set version = "0.7.13" %}
+{% set version = "0.7.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,19 +7,20 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alabaster-{{ version }}.tar.gz
-  sha256: a27a4a084d5e690e16e01e03ad2b2e552c61a65469419b907243193de1a84ae2
+  sha256: 0127f4b1db0afc914883f930e3d40763131aebac295522fc4a04d9e77c703705
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
+    - flit-core >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.9
 
 
 test:
@@ -34,7 +35,7 @@ test:
 about:
   home: http://www.sphinx-doc.org/en/stable/index.html
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: Configurable, Python 2+3 compatible Sphinx theme.
   description: |
     Alabaster is a visually clean, responsive, and configurable Sphinx
