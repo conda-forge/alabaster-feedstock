@@ -3,7 +3,7 @@ About alabaster-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alabaster-feedstock/blob/main/LICENSE.txt)
 
-Home: https://alabaster.readthedocs.io/en/latest/index.html
+Home: https://alabaster.readthedocs.io/
 
 Package license: BSD-3-Clause
 
@@ -11,7 +11,7 @@ Summary: A light, configurable Sphinx theme
 
 Development: https://github.com/sphinx-doc/alabaster
 
-Documentation: https://anaconda.org/anaconda/alabaster
+Documentation: https://alabaster.readthedocs.io/
 
 Alabaster is a visually clean, responsive, and configurable Sphinx
 theme, and the default theme for Sphinx.
