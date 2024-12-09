@@ -152,7 +152,7 @@ Feedstock Maintainers
 =====================
 
 * [@AA-Turner](https://github.com/AA-Turner/)
-* [@conda-forge/sphinx](https://github.com/conda-forge/sphinx/)
+* [@conda-forge/sphinx](https://github.com/orgs/conda-forge/teams/sphinx/)
 * [@msarahan](https://github.com/msarahan/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@r-jain1](https://github.com/r-jain1/)

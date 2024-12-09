@@ -1,3 +1,4 @@
+{% set python_min = "3.10" %}
 {% set name = "alabaster" %}
 {% set version = "1.0.0" %}
 
@@ -6,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alabaster-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/alabaster-{{ version }}.tar.gz
   sha256: c00dca57bca26fa62a6d7d0a9fcce65f3e026e9bfe33e9c538fd3fbb2144fd9e
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - flit-core >=3.7
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
 
 
 test:
@@ -30,6 +31,7 @@ test:
   requires:
     - pip
     - pygments
+    - python {{ python_min }}
   commands:
     - pip check
     - python -c "import alabaster; print(alabaster.get_path())"
